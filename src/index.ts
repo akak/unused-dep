@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import ts, {
   ImportDeclaration,
   type NamedImports,
