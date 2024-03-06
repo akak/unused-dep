@@ -1,0 +1,28 @@
+{
+  "name": "unused-dep",
+  "version": "1.0.0",
+  "description": "Detect and clean up unused dependencies in your TypeScript project effortlessly. This command-line tool analyzes your TypeScript source files, identifies dependencies that are not explicitly imported, and provides a list of unused dependencies. Streamline your project's dependencies for a cleaner, more efficient codebase.",
+  "main": "src/index.ts",
+  "repository": "https://github.com/akak/unused-dep.git",
+  "author": "aviavigayl@gmail.com",
+  "license": "GPL-3",
+  "type": "module",
+  "dependencies": {
+    "typescript": "^5.3.3",
+    "cli-progress": "^3.12.0",
+    "glob": "^10.3.10",
+    "p-limit": "^4.0.0",
+    "yargs": "^17.7.2"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.5",
+    "@types/node": "^20.11.24",
+    "@types/yargs": "^17.0.32",
+    "ts-node": "^10.9.2",
+    "tsc": "^2.0.4"
+  }
+}
