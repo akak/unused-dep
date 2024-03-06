@@ -1,6 +1,6 @@
 {
   "name": "unused-dep",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "Detect and clean up unused dependencies in your TypeScript project effortlessly. This command-line tool analyzes your TypeScript source files, identifies dependencies that are not explicitly imported, and provides a list of unused dependencies. Streamline your project's dependencies for a cleaner, more efficient codebase.",
   "main": "src/index.ts",
   "bin": "src/index.ts",
@@ -12,7 +12,6 @@
     "cli-progress": "^3.12.0",
     "glob": "^10.3.10",
     "p-limit": "^4.0.0",
-    "ts-node": "^10.9.2",
     "typescript": "^5.3.3",
     "yargs": "^17.7.2"
   },
@@ -24,6 +23,7 @@
     "@types/cli-progress": "^3.11.5",
     "@types/node": "^20.11.24",
     "@types/yargs": "^17.0.32",
+    "ts-node": "^10.9.2",
     "tsc": "^2.0.4"
   }
 }
